@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Animal Crossing");
 
         Herbivores horse = new Herbivores("Лошадь", "степь", 60);
         Herbivores gazelle = new Herbivores("Газель", "полупыстыня", 85);
