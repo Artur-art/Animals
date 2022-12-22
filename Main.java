@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Animal Crossing");
+
 
         Herbivores horse = new Herbivores("Лошадь", "степь", 60);
         Herbivores gazelle = new Herbivores("Газель", "полупыстыня", 85);
@@ -20,6 +20,7 @@ public class Main {
         Flying seagull=new Flying("Чайка","море");
         Flying albatros=new Flying("Альбатрос",3,"море");
         Flying falcon=new Flying("Сокол",5,"степь");
+        Flying hawk=new Flying("Ястреб", "Степь");
 
         seagull.fly();
         seagull.eat();
@@ -36,6 +37,7 @@ public class Main {
         System.out.println(horse.toString());
         System.out.println(hyena.toString());
         System.out.println(hyena.getSpeed());
+        System.out.println(hawk.toString());
 
 
     }
